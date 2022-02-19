@@ -1,0 +1,7 @@
+services:
+ siteinfo.route_subscriber:
+    class: Drupal\siteinfo\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }       
+ siteinfo.timezone_service:
+   class: Drupal\siteinfo\DatetimeServices

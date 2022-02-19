@@ -1,0 +1,11 @@
+name: D8 Site Info Extend
+type: module
+description: Demonstrates how to extend drupal 8 site info
+dependencies:
+  - drupal:block
+  - drupal:node
+
+version: '8.x-1.x'
+core: '8.x'
+project: 'siteinfo'
+datestamp: 1536620584
